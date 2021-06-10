@@ -1,0 +1,87 @@
+@import url(http://fonts.googleapis.com/css?family=Poiret+One|Lato|Courgette);
+
+body {
+  margin: 0;
+  background-color: #ffebe6;
+  font-family: Lato, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 80px;
+  background-color: #ff704d;
+  display: flex;
+  align-content: center;
+}
+
+nav {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: auto;
+  height: 65px;
+  border-radius: 5px;
+  border: solid 1px #b32400;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+ul a{
+  display: block;
+  text-decoration: none;
+  color: #ffebe6;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 1.5em;
+}
+
+ul a:hover {
+  color: #b32400;
+}
+
+
+
+#logo {
+  width: 30%;
+  display: flex;
+  margin: 5px;
+  margin-left: 3%;
+}
+
+#logo-txt {
+  color: #ffebe6;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: Courgette;
+  padding-left: 0.75em;
+  padding-top: 0.75em;
+  align-self: baseline;
+}
+
+#menu {
+  margin: 5px;
+  margin-right: 15%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+#nav-link {
+
+}
