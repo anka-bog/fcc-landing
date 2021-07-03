@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Poiret+One|Lato|Courgette);
+@import url(https://fonts.googleapis.com/css?family=Lato|Courgette);
 
 body {
   margin: 0;
@@ -7,11 +7,12 @@ body {
 }
 
 header {
-  width: 100%;
   height: 80px;
   background-color: #ff704d;
   display: flex;
   align-content: center;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -55,7 +56,14 @@ ul a:hover {
   color: #b32400;
 }
 
+form {
+  margin: 1em;
+}
 
+iframe {
+  width: 600px;
+  height: 440px;
+}
 
 #logo {
   width: 30%;
@@ -82,6 +90,45 @@ ul a:hover {
   align-content: center;
 }
 
-#nav-link {
+#intro {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+}
 
+#email {
+  width: 600px;
+  height: 2.5em;
+  border: solid 1px #b32400;
+  border-radius: 1em;
+  padding: 0.4em;
+  color: #b32400;
+  font-size: 1.2em;
+}
+
+#submit {
+  width: 200px;
+  height: 2.5em;
+  border: solid 1px #ff704d;
+  border-radius: 1em;
+  background-color: #ff704d;
+  color: #ffebe6;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+#submit:hover {
+  color: #b32400;
+}
+
+#youtube {
+  text-align: center;
+  margin: 4em;
+}
+
+.form-div {
+  padding: 1em 1em 0 1em;
+  text-align: center;
 }
