@@ -69,7 +69,7 @@ iframe {
   width: 30%;
   display: flex;
   margin: 5px;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 #logo-txt {
@@ -84,7 +84,7 @@ iframe {
 
 #menu {
   margin: 5px;
-  margin-right: 15%;
+  margin-right: 0.5em;
   display: flex;
   justify-content: flex-end;
   align-content: center;
@@ -94,6 +94,7 @@ iframe {
   display: flex;
   flex-direction: column;
   margin: 5px;
+  padding-top: 80px;
   align-items: center;
 }
 
@@ -132,3 +133,11 @@ iframe {
   padding: 1em 1em 0 1em;
   text-align: center;
 }
+
+@media only screen
+  and (min-device-width: 300px)
+  and (max-device-width: 1023px) {
+    #submit {
+      width: 100%;
+    }
+  }
